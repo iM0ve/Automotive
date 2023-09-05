@@ -10,9 +10,8 @@ Material:
   m_Name: Final (Varient)
   m_Shader: {fileID: -6465566751694194690, guid: 964657595ee60b0478b843b73e153464, type: 3}
   m_Parent: {fileID: 2100000, guid: 56a123c1f2f3e1d488e96638cb78773a, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
-  - _DISABLE_DECALS
   - _DISABLE_SSR_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -41,11 +40,12 @@ Material:
     - _Smoothness: 0.748
     - _StencilRefDepth: 8
     - _StencilRefMV: 40
-    - _SupportDecals: 0
+    - _SupportDecals: 1
     m_Colors:
     - _Base_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Coat_Extinction: {r: 0.5, g: 0.45610586, b: 0.3419811, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &396073826507367808
 MonoBehaviour:
   m_ObjectHideFlags: 11
