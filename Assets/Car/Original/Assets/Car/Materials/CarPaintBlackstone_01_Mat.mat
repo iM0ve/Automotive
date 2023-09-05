@@ -31,6 +31,7 @@ Material:
   - _DISABLE_DECALS
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
+  - _MATERIAL_FEATURE_CLEAR_COAT
   - _MATERIAL_FEATURE_SPECULAR_COLOR
   - _NORMAL_TYPE_TANGENT
   m_InvalidKeywords: []
@@ -100,6 +101,7 @@ Material:
     - _BackFaceFactor: 0.1
     - _BaseUV1: 0
     - _BlendMode: 0
+    - _ClearCoatEnabled: 1
     - _CoatMask: 1
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 0
@@ -109,6 +111,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 0
     - _DstBlend: 0
+    - _DstBlend2: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ForceForwardEmissive: 0
@@ -122,6 +125,7 @@ Material:
     - _OcclusionStrength: 1
     - _OcclusionUV1: 1
     - _OpaqueCullMode: 2
+    - _PerPixelSorting: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
@@ -171,3 +175,4 @@ Material:
     - _OcclusionTilingOffset: {r: 1, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
